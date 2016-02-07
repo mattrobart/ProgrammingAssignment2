@@ -1,5 +1,13 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These functions calculate the inverse of a matrix and store it in the cache.
+## In practice, assign the output of makeCacheMatrix to an object:
+## data <- makeCacheMatrix(matrix(x, nrow = 5, ncol = 5))
+## then, run cacheSolve on the output from makeCacheMatrix:
+## cacheSolve(data)
+## this should return the inverse
+## to check it, run cacheSolve again:
+## cacheSolve(data)
+## this should have printed the text "inverse is in the cache" before printing
+## out the inverse
 
 ## create a special "matrix" that is really just a list of containing functions
 ## to set the value of the matrix, get the value of the matrix, set the value of 
